@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.9.20)  28 SEP 2017 12:14
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.9.20)  12 NOV 2017 13:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1047,6 +1047,13 @@ Overfull \hbox (72.60356pt too wide) has occurred while \output is active
 [3
 
 ]
+Overfull \hbox (72.60356pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[4
+
+]
 File: images/trivial_1.png Graphic file (type QTm)
  <use  "images/trivial_1.png" >
 File: images/trivial_2.png Graphic file (type QTm)
@@ -1055,7 +1062,7 @@ Overfull \hbox (72.60356pt too wide) has occurred while \output is active
  [][]  
  []
 
-[4
+[5
 
 ]
 File: images/congruencia_1.png Graphic file (type QTm)
@@ -1066,28 +1073,13 @@ Overfull \hbox (72.60356pt too wide) has occurred while \output is active
  [][]  
  []
 
-[5
+[6
 
 ]
 File: images/congruencia_3.png Graphic file (type QTm)
  <use  "images/congruencia_3.png" >
 File: images/congruencia_4.png Graphic file (type QTm)
  <use  "images/congruencia_4.png" >
-File: images/congruencia_5.png Graphic file (type QTm)
-
-<use  "images/congruencia_5.png" >
-Overfull \hbox (34.43916pt too wide) in paragraph at lines 169--169
- [][][] 
- []
-
-
-Overfull \hbox (72.60356pt too wide) has occurred while \output is active
- [][]  
- []
-
-[6
-
-]
 Overfull \hbox (72.60356pt too wide) has occurred while \output is active
  [][]  
  []
@@ -1095,6 +1087,10 @@ Overfull \hbox (72.60356pt too wide) has occurred while \output is active
 [7
 
 ]
+File: images/congruencia_5.png Graphic file (type QTm)
+ <use  "images/congruencia_5.png" >
+File: images/congruencia_6.png Graphic file (type QTm)
+ <use  "images/congruencia_6.png" >
 Overfull \hbox (72.60356pt too wide) has occurred while \output is active
  [][]  
  []
@@ -1102,8 +1098,6 @@ Overfull \hbox (72.60356pt too wide) has occurred while \output is active
 [8
 
 ]
-Missing character: There is no á in font cmss10!
-
 Overfull \hbox (72.60356pt too wide) has occurred while \output is active
  [][]  
  []
@@ -1111,8 +1105,6 @@ Overfull \hbox (72.60356pt too wide) has occurred while \output is active
 [9
 
 ]
-Missing character: There is no á in font cmss10!
-
 Overfull \hbox (72.60356pt too wide) has occurred while \output is active
  [][]  
  []
@@ -1127,6 +1119,8 @@ Overfull \hbox (72.60356pt too wide) has occurred while \output is active
 [11
 
 ]
+Missing character: There is no í in font cmss10!
+
 Overfull \hbox (72.60356pt too wide) has occurred while \output is active
  [][]  
  []
@@ -1134,15 +1128,39 @@ Overfull \hbox (72.60356pt too wide) has occurred while \output is active
 [12
 
 ]
-Overfull \vbox (39.7569pt too high) detected at line 282
- []
-
-
 Overfull \hbox (72.60356pt too wide) has occurred while \output is active
  [][]  
  []
 
 [13
+
+]
+Overfull \hbox (72.60356pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[14
+
+]
+Overfull \hbox (72.60356pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[15
+
+]
+Overfull \hbox (72.60356pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[16
+
+]
+Overfull \hbox (72.60356pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[17
 
 ]
 \tf@nav=\write6
@@ -1154,11 +1172,11 @@ Overfull \hbox (72.60356pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentation_1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
  (./presentation_1.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 284.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 284.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 316.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 316.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1167,15 +1185,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 22774 strings out of 493638
- 430190 string characters out of 6146796
- 508207 words of memory out of 5000000
- 25706 multiletter control sequences out of 15000+600000
- 11413 words of font info for 41 fonts, out of 8000000 for 9000
+ 22876 strings out of 493638
+ 432681 string characters out of 6146796
+ 492029 words of memory out of 5000000
+ 25802 multiletter control sequences out of 15000+600000
+ 16851 words of font info for 61 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  56i,16n,59p,405b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on presentation_1.pdf (13 pages).
+Output written on presentation_1.pdf (17 pages).

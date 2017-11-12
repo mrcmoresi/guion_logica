@@ -29,8 +29,16 @@
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\slideentry {1}{1}{12}{13/13}{Subsection Example}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@partpages {1}{13}}
-\headcommand {\beamer@subsectionpages {2}{13}}
-\headcommand {\beamer@sectionpages {2}{13}}
-\headcommand {\beamer@documentpages {13}}
-\headcommand {\def \inserttotalframenumber {13}}
+\headcommand {\slideentry {1}{1}{13}{14/14}{Subsection Example}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {1}{1}{14}{15/15}{Subsection Example}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {1}{1}{15}{16/16}{Subsection Example}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {1}{1}{16}{17/17}{Subsection Example}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@partpages {1}{17}}
+\headcommand {\beamer@subsectionpages {2}{17}}
+\headcommand {\beamer@sectionpages {2}{17}}
+\headcommand {\beamer@documentpages {17}}
+\headcommand {\def \inserttotalframenumber {17}}

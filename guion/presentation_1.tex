@@ -125,6 +125,16 @@ El reticulado (\{1,2,3,6,12\}, mcm, mcd) puede ser representado mediante el sigu
 \end{frame}
 
 \begin{frame}
+
+Asumiremos que se tiene la prueba del siguiente lemma (lemma de convexidad)
+\begin{lemma}
+Si $c \in L/ \theta $, entonces c es un subconjunto convexo de (L,s,i), es decir
+    para cualesquiera $x,y,z \in L,$ si se da que $x,y \in c, $ y $x \leq z \leq y$, entonces $ z \in c $
+\end{lemma}
+
+\end{frame}
+
+\begin{frame}
 A continuaci\'on listaremos algunos teoremas que valen para todas las congruencias del reticulado que luego probaremos
 \begin{theorem}
 
@@ -144,7 +154,8 @@ Por ser reticulado, sabemos que valen las congruencias triviales
 \begin{center}
 
 
-\includegraphics[height=5cm]{trivial_1}\includegraphics[height=5cm]{trivial_2}
+$\bigtriangledown$ \includegraphics[height=5cm]{trivial_1}
+$\bigtriangleup$ \includegraphics[height=5cm]{trivial_2}
 \end{center}
 \end{frame}
 %------------------------------------------------
@@ -152,8 +163,8 @@ Por ser reticulado, sabemos que valen las congruencias triviales
 \begin{frame}
 \frametitle{Congruencias Candidatas}
 \begin{center}
-\includegraphics[height=5cm]{congruencia_1}
-\includegraphics[height=5cm]{congruencia_2}
+1. \includegraphics[height=5cm]{congruencia_1}
+2. \includegraphics[height=5cm]{congruencia_2}
 \end{center}
 \end{frame}
 
@@ -162,105 +173,123 @@ Por ser reticulado, sabemos que valen las congruencias triviales
 \begin{frame}
 \frametitle{Congruencias Candidatas}
 \begin{center}
-\includegraphics[height=5cm]{congruencia_3}
-\includegraphics[height=5cm]{congruencia_4}
-\includegraphics[height=5cm]{congruencia_5}
+3. \includegraphics[height=5cm]{congruencia_3}
+4. \includegraphics[height=5cm]{congruencia_4}
 \end{center}
 \end{frame}
 
-
-
 %----------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Congruencias}
-
-\begin{proof}
-    \noindent Veamos el caso de que $12/\theta=\{12\}$.\\
-    Si $6\theta 2$ $\Rightarrow$ $3\theta 1$ $\Rightarrow$ $\theta \subseteq
-    \theta_{3}$.\\
-    Si $6\theta 3$ $\Rightarrow$ $2\theta 1$ $\Rightarrow$ $\theta \subseteq
-    \theta_{4}$.\\
-    $1\theta 6$ $\Rightarrow$ $1\theta 2$ $\wedge$ $1\theta 3$ $\wedge$ $6\theta 2$
-    $\wedge$ $6\theta 3$ $\Rightarrow$ $\theta \subseteq
-    \theta_{5}$.\\
-\end{proof}
+\frametitle{Congruencias Candidatas}
+\begin{center}
+5. \includegraphics[height=5cm]{congruencia_5}
+6. \includegraphics[height=5cm]{congruencia_6}
+\end{center}
 \end{frame}
 
 %----------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Congruencias}
-\begin{proof}
-    \noindent Caso $12/\theta=\{12,6\}$.\\
-    $12\theta 6$ $\Rightarrow$ $6\theta 3$ $\Rightarrow$ $12\theta 3$ $\Rightarrow$
-    $12/\theta=\{12,6,3\}$. Abs! Por lo tanto no hay $\theta$ tq $12/\theta=\{12,6\}$.
-\end{proof}
-\end{frame}
-%----------------------------------------------------------------------------------------
+\frametitle{Congruencias. Caso $12/\theta=\{12\}.$}
+Sea $\theta$ una congruencia sobre (\{1,2,3,6,12\},mcm,mcd) .\\
 
-\begin{frame}
-\frametitle{Congruencias}
-\begin{proof}
-    \noindent Caso $12/\theta=\{12,6,3\}$.\\
-    $12\theta 6$ $\Rightarrow$ $6\theta 2$ $\vee$ $6\theta 3$ (1)\\
-    $6\theta 3$ $\Rightarrow$ $2\theta 1$\\
-    Supongamos $6\theta 2$ $\Rightarrow$ $3\theta 1$ $\Rightarrow$
-    $\theta=\triangledown$\\
-    Por lo tanto 6 no está relacionado con 2.\\
-    Si en (1) solo vale $6\theta 3$ $\Rightarrow$ $\theta \subseteq \theta_{1}$.\\
-\end{proof}
+\noindent Ahora supongamos que $12/\theta=\{12\}.$\\
+Analizaremos por casos todas las posibles congruencias\\
+Subcaso $(6,1)$ $\in$ $\theta$ \\
+\begin{itemize}
+	\item     Si $(6,1)$ $\in$ $\theta$ entonces (por lema de convexidad)
+    $\{6,3,2,1\} \subseteq 6/\theta$, y ya que $12/\theta=\{12\}$, entonces $6/\theta = \{6,3,2,1\}$ por lo tanto $\theta$ es la congruencia 5.\\
+\end{itemize}
 \end{frame}
 
-%----------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Congruencias}
-\begin{proof}
-    \noindent Caso $12/\theta=\{12,6,2\}$.\\
-    $12\theta 6$ $\Rightarrow$ $6\theta 2$ $\vee$ $6\theta 3$ (1)\\
-    Sabemos que vale $6\theta 2$, veamos $6\theta 3$. Supongamos que vale,
-    entonces $2\theta 1$ $\Rightarrow$ $6\theta 1$ $\Rightarrow$ $6\theta 3$
-    $\Rightarrow$ $\theta = \triangledown$. Entonces 6 no está relacionado con
-    3.\\
-    Por lo tanto si $12\theta 6$ $\wedge$ $6\theta 2$ $\Rightarrow$ $\wedge$
-    $1\theta 3$ $\Rightarrow$ $\theta \subseteq \theta_{2}$.\\
-\end{proof}
+\frametitle{Congruencias. Caso $12/\theta=\{12\}.$}
+Subcaso (6,1) $\not \in \theta$
+\begin{itemize}
+\item Veamos el caso que $(2,1)$ $\in$ $\theta$ entonces (por lemita) $(3,6)$ $\in$
+    $\theta$, por lo tanto $\theta$ es la congruencia 4.\\
+
+\item Veamos el caso que $(3,1)$ $\in$ $\theta$ entonces (por lemita) $(2,6)$ $\in$
+    $\theta$, por lo tanto $\theta$ es la congruencia 3.\\  
+
+\end{itemize}
+    
 \end{frame}
 
-%----------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Congruencias}
-\begin{proof}
-    \noindent Caso $12/\theta=\{12,6,2,3\}$.\\
-    Si $2\theta 3$ $\Rightarrow$ $1\theta 2$ $\wedge$ $1\theta 3$ $\wedge$ $6\theta 2$
-    $\wedge$ $6\theta 3$ $\Rightarrow$ $\theta \subseteq \triangledown$.\\
-\end{proof}
+\frametitle{Congruencias. Caso $12/\theta=\{12\}.$}
+Nos queda analizar el caso en que\\
+    $(2,3)$ $\in$ $\theta$, entonces (por lemita) $\{6,3,2,1\} \subseteq 2/\theta$, ya que $12/\theta=\{12\}$, entonces $\{6,3,2,1\} = 2/\theta$ por lo tanto $\theta$ es la congruencia 5.\\
+    Si no se da ninguno de los casos listados recien, entonces $a/\theta={a}$ para cada $a \in
+    \{1,2,3,6,12\}$, por lo tanto $\theta$ es la congruencia $\bigtriangleup$ (la trivial).\\
+
+
 \end{frame}
 
 %----------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Lemas}
+\frametitle{Congruencias. Caso $12/\theta \not = \{12\}$}
+Ahora veremos las congruencias donde $12/\theta \not = \{12\}$\\
+\textbf{Subcaso $12/\theta = \{12,6\}$}
+\begin{itemize}
+\item Sabemos que $(2,1)$,$(3,1)$ $\notin$ $\theta$ (porque, por
+    lemitas, eso implicaría que $(3,6)$ o $(2,6)$ $\in$ $\theta$, lo cual no puede
+    ser porque supusimos que $12/\theta = \{12,6\}$). Entonces $\theta$ es la congruencia 6.\\
+\end{itemize}    
+\end{frame}
+%----------------------------------------------------------------------------------------
 
+\begin{frame}
+\frametitle{Congruencias. Caso $12/\theta \not = \{12\}$}
+\begin{itemize}
 
-    Con esto vemos que son todas las congruencias posibles. Veamos ahora que los
-    lemas valen:\\
-\begin{proof}   
-    a) $6\theta 3$ $\Rightarrow$ $2\theta 1$\\
+\item Si $3 \in 12/\theta$, por lema de convexitud, $6 \in 12/\theta$. Luego $(3,6)$ $\in$ $\theta$ implica (por lemita) $(2,1)$ $\in$ $\theta$.
+\begin{itemize}
+\item Luego, si $2 \notin 12/\theta$, entonces $\theta$ es la congruencia 1. 
+
+\item Si $2 \in 12/\theta$ (por lemita), entonces $\theta$ es la congruencia $\bigtriangledown$ (la trivial total).\\
+\end{itemize}
+    
+\item Si $2 \in 12/\theta$, por lema de convexidad, $6 \in 12/\theta$. Luego $(2,6)$ $\in$ $\theta$ implica (por lemita) $(3,1)$ $\in$ $\theta$. 
+\begin{itemize}
+\item Luego, si $3 \notin 12/\theta$, entonces $\theta$ es la congruencia 2.
+\item Si $3 \in 12/\theta$ (por lemita), $\theta$ es la congruencia $\bigtriangledown$ (la trivial total).\\
+\end{itemize}
+\end{itemize}
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Congruencias Caso $12/\theta \not = \{12\}$}
+\begin{itemize}
+\item     Si $1 \in 12/\theta$, por lema de convexidad, $12/\theta = \{12,6,3,2,1\}$, por lo tanto $\theta$ es la congruencia $\bigtriangledown$ (trivial total).\\
+\end{itemize}
+Con esto ya cubrimos todas las posibles congruencias $\theta$.
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}
+\frametitle{Prueba Lemitas}
+Veamos ahora los lemas que planteamos sobre este reticulado valen:\\
+\begin{enumerate}
+\item[(a)] $6\theta 3$ $\Rightarrow$ $2\theta 1$\\
        $6\theta 3$ $\Rightarrow$ $6i2\theta 3i2$ $\Rightarrow$ $2\theta 1$\\
-\end{proof}
-\begin{proof}
-    b) $3\theta 1$ $\Rightarrow$ $2\theta 6$\\
+
+\item[(b)] $3\theta 1$ $\Rightarrow$ $2\theta 6$\\
        $3\theta 1$ $\Rightarrow$ $3s2\theta 1s2$ $\Rightarrow$ $6\theta 2$ $\Rightarrow$ $2\theta 6$\\
-\end{proof}
+       
+\item[(c)] $2\theta 6$ $\Rightarrow$ $3\theta 1$\\
+       $2\theta 6$ $\Rightarrow$ $2i3\theta 6i3$ $\Rightarrow$ $1\theta 3$ $\Rightarrow$ $3\theta 1$\\
+
+\end{enumerate}
 \end{frame}
+%----------------------------------------------------------------------------------------
 
 \begin{frame}
-\frametitle{Lemas}
-\begin{proof}
-
-    c) $2\theta 6$ $\Rightarrow$ $3\theta 1$\\
-       $2\theta 6$ $\Rightarrow$ $2i3\theta 6i3$ $\Rightarrow$ $1\theta 3$ $\Rightarrow$ $3\theta 1$\\
-\end{proof}
-\begin{proof}
-    d) $2\theta 3$ $\Rightarrow$ $1\theta 2$ $\wedge$ $1\theta 3$ $\wedge$ $6\theta 2$
+\frametitle{Prueba Lemitas}
+\begin{enumerate}
+\item[(d)] $2\theta 3$ $\Rightarrow$ $1\theta 2$ $\wedge$ $1\theta 3$ $\wedge$ $6\theta 2$
        $\wedge$ $6\theta 3$\\
        $2\theta 3$ $\Rightarrow$ $3\theta 3$ $\wedge$ $2\theta 3$ $\Rightarrow$
        $3s2\theta 3s3$ $\wedge$ $3i2\theta 3i3$\\ 
@@ -269,16 +298,19 @@ Por ser reticulado, sabemos que valen las congruencias triviales
        $\Rightarrow$ $2\theta 6$\\
        Por lo tanto si $2\theta 3$ $\Rightarrow$ $1\theta 2$ $\wedge$ $1\theta 3$ $\wedge$ $6\theta 2$
        $\wedge$ $6\theta 3$\\
-\end{proof}
-\begin{proof}
-    e) $1\theta 6$ $\Rightarrow$ $1\theta 2$ $\wedge$ $1\theta 3$ $\wedge$ $6\theta 2$
+
+\item[(e)] $1\theta 6$ $\Rightarrow$ $1\theta 2$ $\wedge$ $1\theta 3$ $\wedge$ $6\theta 2$
        $\wedge$ $6\theta 3$\\
        $1\theta 6$ $\Rightarrow$ $1s2\theta 6s2$ $\Rightarrow$ $2\theta 6$\\
        $1\theta 6$ $\Rightarrow$ $1s3\theta 6s3$ $\Rightarrow$ $3\theta 6$\\
        Por (a) si $6\theta 3$ $\Rightarrow$ $2\theta 1$.\\
        Si $6\theta 2$ $\wedge$ $6\theta 3$ $\Rightarrow$ $2\theta 3$
        $\Rightarrow$ $1\theta 3$.
-\end{proof}
+\end{enumerate}
 \end{frame}
 
+\begin{frame}
+\frametitle{Conclusi\'on}
+Con esto hemos probado cuales son todas las congruencias del reticulado (\{1,2,3,6,12\},mcm,mcd). 
+\end{frame}
 \end{document} 
